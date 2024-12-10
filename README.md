@@ -49,7 +49,9 @@ git clone https://github.com/suginomoto/.minecraft
 ```
 
 エクスプローラー(ファイルやフォルダがあるとこ、タスクバーにあるやつ)を起動して、
+
 `C:ローカルディスク/ユーザー/<自分のユーザー名>/.minecraft`
+
 をコピーして
 
 次に上にある  

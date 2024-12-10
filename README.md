@@ -35,7 +35,7 @@ https://dan-chan.com/java-update-04/
 modを動かすためのものです。  
 https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
 ここに飛びます。  
-`Download Recommended` の　`installer`　を押してダウンロードします。  
+`Download Recommended`の`installer`を押してダウンロードします。  
 起動してください。  
 `client`でインストールします  
 

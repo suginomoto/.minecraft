@@ -1,6 +1,6 @@
 # **ようこそ、けえぇのマインクラフトサーバーへ！！**
 
-一応ですが、javaエディションのサーバーなのでminecraft javaEditionを所有している必要があります。
+一応ですが、JavaエディションのサーバーなのでMinecraft javaEditionを所有している必要があります。
 
 
 最低限の知識として、クライアント=君たち、サーバー=管理者だと思っておいてください。modの知識として必要です。  必要ないけど、細かくダウンロードを分けて、フォルダを移動してもらうような構造にしています。フォルダの構造を少し把握しておいてほしいからです。
@@ -59,21 +59,22 @@ git clone https://github.com/suginomoto/.minecraft
 ```
 
 エクスプローラー(ファイルやフォルダがあるとこ、タスクバーにあるやつ)を起動して、  　　
-`PC->windows:C->ユーザー->pc名->.minecraft`
-configとmodsとREADME.md、whitelist.txtがあることを確認してください。
-
-そこにある.minecraftをコピーして
+`C:ローカルディスク/ユーザー/<自分のユーザー名>/.minecraft`
+をコピーして
 
 次に上にある  
 #### 表示->表示->隠しファイルを押してチェックをつけます。そしたら  
-`PC->windows:C->ユーザー->pc名->AppData->Roaming `
-の順で押して行って、modsとconfigを消してCtrl+vで、べたあぁ...♡  
+`C:ローカルディスク/ユーザー/<自分のユーザー名>/AppData/Roaming`
+の順で押して行って、`Ctrl+V`で、べたあぁ...♡  
 
 次に置き換えなどを選択するところが出ます。　　
 そこはスキップを選択します。　　
 
 再びWin+Rを押し、cmdと打ち込みenterを押します。
-```git pull```
+```bash
+cd /AppData/Roaming/.minecraft
+git pull
+```
 このコマンドをそのまま打ち込んでください。
 ### 4.5 やりたいひとだけ、影mod  
 こちらのサーバーはforgeで構成されているので、  

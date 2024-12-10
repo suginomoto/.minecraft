@@ -113,7 +113,7 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 ターミナルを開いて、次のコマンドをうってください。
 
 ```bash
-cd /AppData/Roaming/.minecraft
+cd AppData/Roaming/.minecraft
 git pull
 ```
 

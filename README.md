@@ -16,7 +16,7 @@ gitを使ってインストールします。
 https://git-scm.com/downloads 
 ここに飛んでください。  
 Download for ~~~~~~ を押します。  
-Click here to downloadダウンロードします。
+Click here to downloadを押してダウンロードします。
 
 これでgitのインストールは完了です。
 gitは定期的にアップデートされるので、各自チェックしてください。

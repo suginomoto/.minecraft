@@ -17,9 +17,9 @@ https://git-scm.com/downloads
 `Download for ~~~~~~`を押します。  
 `Click here to download`を押してダウンロードします。
 
-ダウンロードしたファイルを起動して、`install`を押します。　　
-Nextが出たら全て押してインストールを進めます。　　
-Finishが出たら全てのチェックを外してFinishを押します。　　
+ダウンロードしたファイルを起動して、`install`を押します。
+Nextが出たら全て押してインストールを進めます。
+Finishが出たら全てのチェックを外してFinishを押します。
 これで`git`のインストールは完了です。
 
 ## 2. Temurin JDK/JREのインストール

@@ -1,6 +1,6 @@
 # **ようこそ、けえぇのマインクラフトサーバーへ！！**
 
-一応ですが、JavaエディションのサーバーなのでMinecraft javaEditionを所有している必要があります。
+一応ですが、Javaエディションのサーバーなので`Minecraft javaEdition`を所有している必要があります。
 
 
 最低限の知識として、クライアント=君たち、サーバー=管理者だと思っておいてください。modの知識として必要です。必要ないけど、細かくダウンロードを分けて、フォルダを移動してもらうような構造にしています。フォルダの構造を少し把握しておいてほしいからです。
@@ -12,24 +12,24 @@
 
 
 ## 1.`git`のインストール
-gitを使ってインストールします。  
+`git`を使ってインストールします。  
 https://git-scm.com/downloads 
 ここに飛んでください。  
 `Download for ~~~~~~`を押します。  
 `Click here to download`を押してダウンロードします。
 
 ダウンロードしたファイルを起動して、`install`を押します。　　
-nextが出たら全て押してインストールを進めます。　　
-Finishが出たら全てのチェックを外してfinishを押します。　　
-これでgitのインストールは完了です。
-gitは定期的にアップデートされるので、各自チェックしてください。
+Nextが出たら全て押してインストールを進めます。　　
+Finishが出たら全てのチェックを外してFinishを押します。　　
+これで`git`のインストールは完了です。
+`git`は定期的にアップデートされるので、各自チェックしてください。
 
 
 
 
-## 2.jdk,jreのインストール
-jdk,jreについてはとりあえず動かすためのものだと思ってください。(ググれば詳細が出てきます)  
-https://adoptium.net/temurin/releases/?version=17  
+## 2.Temurin JDK/JREのインストール
+JDK/JREについてはとりあえず動かすためのものだと思ってください。(ググれば詳細が出てきます)  
+https://adoptium.net//releases/?version=17  
 ここに飛んでください。  
 一番下までいって、windows x86 JDK のmsi, windows x86 JRE のmsiを押してダウンロードします。  
 後はこちらのページを参考にしてください。  
@@ -38,13 +38,13 @@ https://dan-chan.com/java-update-04/
 
 
 
-## 3.forgeのインストール
+## 3.`forge`のインストール
 modを動かすためのものです。  
 https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html 
 ここに飛びます。  
-Download Recommended の　installer　を押してダウンロードします。  
+`Download Recommended` の　`installer`　を押してダウンロードします。  
 起動してください。  
-clientでインストールします  
+`client`でインストールします  
 パスはこだわりのない人は初期のままでいいです。  
 
 
@@ -70,12 +70,6 @@ git clone https://github.com/suginomoto/.minecraft
 次に置き換えなどを選択するところが出ます。　　
 そこはスキップを選択します。　　
 
-再びWin+Rを押し、cmdと打ち込みenterを押します。
-```bash
-cd /AppData/Roaming/.minecraft
-git pull
-```
-このコマンドをそのまま打ち込んでください。
 ### 4.5 やりたいひとだけ、影mod  
 こちらのサーバーはforgeで構成されているので、  
 Oculus (forge対応なら何でも良い)  
@@ -87,7 +81,10 @@ Oculus (forge対応なら何でも良い)
 ## 5 サーバーへの参加
 行程　4 までできたら、管理者に連絡してください。アドレスを送ります。
 
-Minecraft Lancher を開きます。構成画面から、forge1.20を選んでください。そしたらプレイを押します。  
+Minecraft Lancher を開きます。`forge1.20.1`を選択し、起動構成からJREのパスを
+`C:\Program Files\Eclipse Adoptium\jre<xx現在のバージョンxx>\bin\javaw.exe`
+に変更しましょう。
+そしたらプレイを押します。  
 マルチプレイを選んで、サーバーを追加  
 リソースパックは毎回確認にしてください。  
 次に、管理者から受け取ったアドレスをそのままサーバーアドレスのところにぱああああぁぁぁん!!!  
@@ -113,12 +110,15 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 ## サーバーにmodが追加された場合
 ターミナルを開いて、次のコマンドをうってください。
 
-```cd AppData/Roaming```
-```git pull```
+```bash
+cd /AppData/Roaming/.minecraft
+git pull
+```
 
 一応modsが変更されているか確認してください。
 
 ##　追加してほしいmodがある場合
+`issue`や`Suginomoto`のDMで教えてください
 管理者に伝える前に一度、
 #### そのmodがforgeに対応しているか、minecraftver1.20.1に対応しているか、欲しい要素がまだ残っているか、それはクライアント側だけのmodではないか、また重要なエラーが含まれていないか(これは分からなかったら管理者が調べます。)確認してください。
 

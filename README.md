@@ -5,36 +5,20 @@
 
 ###　最低限の知識として、クライアント=君たち、サーバー=管理者だと思っておいてください。modの知識として必要です。  必要ないけど、細かくダウンロードを分けて、フォルダを移動してもらうような構造にしています。フォルダの構造を少し把握しておいてほしいからです。
 
+管理者 suginomoto
 
 ##　必ず順番通りに動かしてください！！　つまづきますから
 
 
 
-## 0.最初にすること
-右上にある<>codeを押して、HTTPS欄のurlをコピーします。  
-そしたらWin+Rを押し、cmdと打ち込みenterを押します。  
-次に下のコマンドを打ち込んでください。  
-
-##### mkdir hoge
-##### cd hoge
-##### git clone url　<-urlにはさっきコピーしたものを貼り付けます。
-エクスプローラーを起動して、  
-PC->windows:C->ユーザー->pc名->hoge
-modsとREADME.mdがあることを確認してください。
-
-
-
 ## 1.gitのインストール
 gitを使ってインストールします。  
-https://git-scm.com/downloads  
-ここに飛んでください、そして戻ってきてください。  
-スタート->設定->システム->バージョン情報->デバイスの仕様  
-ここから-システムの種類-にある？ビット　オペレーションシステムの？部分を確認してください。  
-先ほどのページに戻って、Download for windows　を押します。  
-Standalone Installer のビットが一致しているものをダウンロードします。
+https://git-scm.com/downloads 
+ここに飛んでください。  
+Download for ~~~~~~ を押します。  
+Click here to downloadダウンロードします。
 
 これでgitのインストールは完了です。
-
 gitは定期的にアップデートされるので、各自チェックしてください。
 
 
@@ -62,12 +46,21 @@ clientでインストールします
 
 
 ## 4.modのインストール
+右上にある<>codeを押して、HTTPS欄のurlをコピーします。  
+そしたらWin+Rを押し、cmdと打ち込みenterを押します。  
+次に下のコマンドを打ち込んでください。  
+```git clone https://github.com/suginomoto/kee-minecraft_1.20.1.git ```
+
+エクスプローラーを起動して、  
+`PC->windows:C->ユーザー->pc名->keeminecraft`
+modsとREADME.mdがあることを確認してください。
+
 これはサーバーでmodを追加するたびに、更新しなければなりません。  
 hogeからmodsをコピーして  
 
 次に上にある  
 #### 表示->表示->隠しファイルを押してチェックをつけます。そしたら  
-PC->windows:C->ユーザー->pc名->AppData->Roaming->.minecraft  
+`PC->windows:C->ユーザー->pc名->AppData->Roaming->.minecraft `
 の順で押して行って、modsを消してCtrl+vで、べたあぁ...♡  
 
 
@@ -109,7 +102,7 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 ## サーバーにmodが追加された場合
 ターミナルを開いて、次のコマンドをうってください。
 
-git pull
+```git pull```
 
 一応modsが変更されているか確認してください。
 

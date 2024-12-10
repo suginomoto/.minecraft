@@ -57,7 +57,7 @@ git clone https://github.com/suginomoto/.minecraft
 `C:ローカルディスク/ユーザー/<自分のユーザー名>/AppData/Roaming`
 の順で押して行って、`Ctrl+V`で、べたあぁ...♡  
 
-次に置き換えなどを選択するところが出ます。　　
+次に置き換えなどを選択するところが出ます。
 そこはスキップを選択します。　　
 
 ### 4.5 やりたいひとだけ、影mod  

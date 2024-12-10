@@ -13,7 +13,7 @@
 
 
 
-## 1.gitのインストール
+## 1. gitのインストール
 `git`を使ってインストールします。  
 https://git-scm.com/downloads 
 ここに飛んでください。  
@@ -29,7 +29,7 @@ Finishが出たら全てのチェックを外してFinishを押します。　�
 
 
 
-## 2.Temurin JDK/JREのインストール
+## 2. Temurin JDK/JREのインストール
 JDK/JREについてはとりあえず動かすためのものだと思ってください。(ググれば詳細が出てきます)  
 https://adoptium.net//releases/?version=17  
 ここに飛んでください。  
@@ -40,7 +40,7 @@ https://dan-chan.com/java-update-04/
 
 
 
-## 3.`forge`のインストール
+## 3. forgeのインストール
 modを動かすためのものです。  
 https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html 
 ここに飛びます。  
@@ -51,7 +51,7 @@ https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
 
 
 
-## 4.modのインストール 
+## 4. modのインストール 
 下のコマンドをコピーします
 Win+Rを押し、cmdと打ち込みenterを押します。  
 黒い画面がでたら貼り付けてください。  
@@ -80,7 +80,7 @@ Oculus (forge対応なら何でも良い)
 
 
 
-## 5 サーバーへの参加
+## 5. サーバーへの参加
 行程　4 までできたら、管理者に連絡してください。アドレスを送ります。
 
 Minecraft Lancher を開きます。`forge1.20.1`を選択し、起動構成からJREのパスを
@@ -100,7 +100,7 @@ Minecraft Lancher を開きます。`forge1.20.1`を選択し、起動構成か�
 
 
 
-# ようこそ、私たちのマインクラフトへ
+## ようこそ、私たちのマインクラフトへ
 色々なmodが追加してあります。調べる、聞くなどしてください。  
 voicechatは優先して調べてください。複数の会話が混ざらないように利用します。
 

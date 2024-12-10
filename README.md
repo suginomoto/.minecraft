@@ -49,14 +49,14 @@ clientでインストールします
 右上にある<>codeを押して、HTTPS欄のurlをコピーします。  
 そしたらWin+Rを押し、cmdと打ち込みenterを押します。  
 次に下のコマンドを打ち込んでください。  
-```git clone https://github.com/suginomoto/kee-minecraft_1.20.1.git ```
+```git clone https://github.com/suginomoto/.minecraft ```
 
 エクスプローラーを起動して、  
-`PC->windows:C->ユーザー->pc名->keeminecraft`
+`PC->windows:C->ユーザー->pc名->.minecraft`
 configとmodsとREADME.md、whitelist.txtがあることを確認してください。
 
 これはサーバーでmodを追加するたびに、更新しなければなりません。  
-keeminecraftからmodsとconfigとwhitelist.txtをコピーして  
+.minecraftからmodsとconfigとwhitelist.txtをコピーして  
 
 次に上にある  
 #### 表示->表示->隠しファイルを押してチェックをつけます。そしたら  
@@ -102,6 +102,7 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 ## サーバーにmodが追加された場合
 ターミナルを開いて、次のコマンドをうってください。
 
+```cd AppData/Roaming```
 ```git pull```
 
 一応modsが変更されているか確認してください。

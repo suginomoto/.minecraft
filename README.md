@@ -7,7 +7,7 @@
 
 管理者 suginomoto
 
-##　必ず順番通りに動かしてください！！　つまづきますから
+##　必ず順番通りに動かしてください！！　つまづきますから　コマンドの空白には意味があります、絶対に消さないでください
 
 
 
@@ -18,8 +18,12 @@ https://git-scm.com/downloads
 Download for ~~~~~~ を押します。  
 Click here to downloadを押してダウンロードします。
 
+ダウンロードしたファイルを起動して、installを押します。　　
+nextが出たら全て押してインストールを進めます。　　
+Finishが出たら全てのチェックを外してfinishを押します。　　
 これでgitのインストールは完了です。
 gitは定期的にアップデートされるので、各自チェックしてください。
+
 
 
 
@@ -45,26 +49,29 @@ clientでインストールします
 
 
 
-## 4.modのインストール
-右上にある<>codeを押して、HTTPS欄のurlをコピーします。  
-そしたらWin+Rを押し、cmdと打ち込みenterを押します。  
-次に下のコマンドを打ち込んでください。  
+## 4.modのインストール 
+下のコマンドをコピーします
+Win+Rを押し、cmdと打ち込みenterを押します。  
+黒い画面がでたら貼り付けてください。  
 ```git clone https://github.com/suginomoto/.minecraft ```
 
-エクスプローラーを起動して、  
+エクスプローラー(ファイルやフォルダがあるとこ、タスクバーにあるやつ)を起動して、  　　
 `PC->windows:C->ユーザー->pc名->.minecraft`
 configとmodsとREADME.md、whitelist.txtがあることを確認してください。
 
-これはサーバーでmodを追加するたびに、更新しなければなりません。  
-.minecraftからmodsとconfigとwhitelist.txtをコピーして  
+そこにある.minecraftをコピーして
 
 次に上にある  
 #### 表示->表示->隠しファイルを押してチェックをつけます。そしたら  
-`PC->windows:C->ユーザー->pc名->AppData->Roaming->.minecraft `
+`PC->windows:C->ユーザー->pc名->AppData->Roaming `
 の順で押して行って、modsとconfigを消してCtrl+vで、べたあぁ...♡  
 
+次に置き換えなどを選択するところが出ます。　　
+そこはスキップを選択します。　　
 
-
+再びWin+Rを押し、cmdと打ち込みenterを押します。
+```git pull```
+このコマンドをそのまま打ち込んでください。
 ### 4.5 やりたいひとだけ、影mod  
 こちらのサーバーはforgeで構成されているので、  
 Oculus (forge対応なら何でも良い)  

@@ -1,0 +1,25 @@
+
+#net.minecraft.scalar.digall.mod_DigAllSMP
+[configuration]
+	#String: "iron_shovel, wooden_shovel, stone_shovel, diamond_shovel, golden_shovel,netherite_shovel"
+	itemIds = "iron_shovel, wooden_shovel, stone_shovel, diamond_shovel, golden_shovel,netherite_shovel"
+	#String: "grass_block, dirt, sand, gravel, farmland, snow_layer, clay, soul_sand, mycelium, coarse_dirt,soul_soil"
+	blockIds = "grass_block, dirt, sand, gravel, farmland, snow_layer, clay, soul_sand, mycelium, coarse_dirt,soul_soil"
+	#String: "KEY_G"
+	Key = "KEY_G"
+	#Integer: 11
+	Limiter = 3
+	#Integer: 0
+	#0:not decrease durability 1,2:decrease durability(1=until whole blocks 2=until break an item)
+	Durability = 0
+	#Boolean: true
+	DestroyUnder = true
+	#Boolean: true
+	StartMode = true
+	#Boolean: false
+	AutoCollect = false
+	#Boolean: false
+	DropGather = true
+	#String: "mod_digall"
+	channelName = "mod_digall"
+

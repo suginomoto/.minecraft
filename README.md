@@ -53,15 +53,15 @@ clientでインストールします
 
 エクスプローラーを起動して、  
 `PC->windows:C->ユーザー->pc名->keeminecraft`
-modsとREADME.mdがあることを確認してください。
+configとmodsとREADME.md、whitelist.txtがあることを確認してください。
 
 これはサーバーでmodを追加するたびに、更新しなければなりません。  
-hogeからmodsをコピーして  
+keeminecraftからmodsとconfigとwhitelist.txtをコピーして  
 
 次に上にある  
 #### 表示->表示->隠しファイルを押してチェックをつけます。そしたら  
 `PC->windows:C->ユーザー->pc名->AppData->Roaming->.minecraft `
-の順で押して行って、modsを消してCtrl+vで、べたあぁ...♡  
+の順で押して行って、modsとconfigを消してCtrl+vで、べたあぁ...♡  
 
 
 
@@ -69,7 +69,7 @@ hogeからmodsをコピーして
 こちらのサーバーはforgeで構成されているので、  
 Oculus (forge対応なら何でも良い)  
 をダウンロードして、modsにぶちこんでください。  
-そしたら、シェーダー(SEUSなど)をインストールして、modsを開く前にあるフォルダ、shaderpacksというフォルダに注いであげてください。zipは基本解凍しません。(しても動くらしいよ、したことないけれど)
+そしたら、シェーダー(SEUSなど)をインストールして、modsを開く前にあるフォルダ、shaderpacksというフォルダに注いであげてください。
 
 
 

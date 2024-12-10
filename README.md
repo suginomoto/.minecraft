@@ -16,9 +16,9 @@ gitを使ってインストールします。
 https://git-scm.com/downloads 
 ここに飛んでください。  
 Download for ~~~~~~ を押します。  
-Click here to downloadを押してダウンロードします。
+`Click here to download`を押してダウンロードします。
 
-ダウンロードしたファイルを起動して、installを押します。　　
+ダウンロードしたファイルを起動して、`install`を押します。　　
 nextが出たら全て押してインストールを進めます。　　
 Finishが出たら全てのチェックを外してfinishを押します。　　
 これでgitのインストールは完了です。
@@ -53,7 +53,10 @@ clientでインストールします
 下のコマンドをコピーします
 Win+Rを押し、cmdと打ち込みenterを押します。  
 黒い画面がでたら貼り付けてください。  
-```git clone https://github.com/suginomoto/.minecraft ```
+
+```bash
+git clone https://github.com/suginomoto/.minecraft 
+```
 
 エクスプローラー(ファイルやフォルダがあるとこ、タスクバーにあるやつ)を起動して、  　　
 `PC->windows:C->ユーザー->pc名->.minecraft`

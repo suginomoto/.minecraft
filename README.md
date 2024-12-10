@@ -103,7 +103,7 @@ git pull
 ### 追加してほしいmodがある場合
 `issue`やSuginomotoのDMで教えてください！
 管理者に伝える前に一度、
-*そのmodがforge用かつ`Ver1.20.1`に対応しているか確認してください！*
+**そのmodがforge用かつ`Ver1.20.1`に対応しているか確認してください！**
 
 ### modのconfigについて
 mineallなどのコンフィグでで追加してほしいものがあったら`issue`やSuginomotoのDMで教えてください！

@@ -24,8 +24,8 @@ Finishが出たら全てのチェックを外してFinishを押します。
 
 ## 2. Temurin JDK/JREのインストール
 JDK/JREについてはとりあえず動かすためのものだと思ってください。(ググれば詳細が出てきます)  
-https://adoptium.net//releases/?version=17  
-ここに飛んでください。  
+https://adoptium.net/temurin/releases/  
+ここに飛んでください。  (飛べなかったらAdoptium LTS17って調べてください。そしてversionがLTS17担っているか確認し、なってなかったら変えてください)　　
 一番下までいって、windows x86 JDK のmsi, windows x86 JRE のmsiを押してダウンロードします。  
 後はこちらのページを参考にしてください。  
 https://dan-chan.com/java-update-04/  

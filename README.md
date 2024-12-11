@@ -100,7 +100,7 @@ forgeの起動構成からメモリ割り当ての上限を増やしましょう
 ターミナルを開いて、次のコマンドをうってください。
 
 ```bash
-cd AppData/Roaming/
+cd AppData/Roaming/.minecraft
 git pull
 ```
 ### 追加してほしいmodがある場合

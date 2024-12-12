@@ -42,7 +42,7 @@ https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
 
 ## 4. modのインストール 
 下のコマンドをコピーします
-Win+Rを押し、cmdと打ち込みenterを押します。  
+Win+Rを押し、`cmd`と打ち込みenterを押します。  
 黒い画面がでたら貼り付けてください。  
 
 ```bash

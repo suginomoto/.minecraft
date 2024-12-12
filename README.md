@@ -91,7 +91,7 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 GPUのドライバーを更新しましょう
 
 ### なんか重いかも？
-・より軽量なJREを使うことでFPS向上や互換性向上を期待できます
+・より軽量なJREを使うことでFPS向上や互換性向上を期待できます。<br>
 https://adoptium.net/temurin/releases/ からJREをダウロードし、Minecraft Launcherから起動構成JREのパスを
 `C:\Program Files\Eclipse Adoptium\jre-<バージョン>\bin\javaw.exe`
 に変更しましょう。<br>

@@ -87,15 +87,15 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 
 ## FAQ
 
-### 画面の表示が変/なんかエラーが発生する
+### 画面の表示が変/エラーで遊べない
 GPUのドライバーを更新しましょう
 
 ### なんか重いかも？
-より軽量なJREを使うことでFPS向上や互換性向上を期待できます
+・より軽量なJREを使うことでFPS向上や互換性向上を期待できます
 https://adoptium.net/temurin/releases/ からJREをダウロードし、Minecraft Launcherから起動構成JREのパスを
 `C:\Program Files\Eclipse Adoptium\jre-<バージョン>\bin\javaw.exe`
 に変更しましょう。<br>
-forgeの起動構成からメモリ割り当ての上限を増やしましょう
+・forgeの起動構成からメモリ割り当ての上限を増やしましょう
 
 
 ### サーバーにmodが追加されたときは

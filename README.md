@@ -91,11 +91,11 @@ voicechatは優先して調べてください。複数の会話が混ざらな�
 ・GPUのドライバーを更新しましょう
 
 ### なんか重いかも？
+・forgeの起動構成からメモリ割り当ての上限を増やしましょう
 ・より軽量なJREを使うことでFPS向上や互換性向上を期待できます。<br>
 https://adoptium.net/temurin/releases/ からJREをダウロードし、forgeの起動構成からJREのパスを
 `C:\Program Files\Eclipse Adoptium\jre-<バージョン>\bin\javaw.exe`
 に変更しましょう。<br>
-・forgeの起動構成からメモリ割り当ての上限を増やしましょう
 
 
 ### サーバーにmodが追加されたときは

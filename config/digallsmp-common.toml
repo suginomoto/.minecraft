@@ -1,14 +1,14 @@
 
 #net.minecraft.scalar.digall.mod_DigAllSMP
 [configuration]
-	#String: "iron_shovel, wooden_shovel, stone_shovel, diamond_shovel, golden_shovel, netherite_shovel"
-	itemIds = "mekanismtools:bronze_shovel,mekanismtools:lapis_lazuli_shovel,mekanismtools:osmium_shovel,mekanismtools:refined_glowstone_shovel,mekanismtools:refined_obsidian_shovel,mekanismtools:steel_shovel,mekanismtools:bronze_paxel,mekanismtools:diamond_paxel,mekanismtools:gold_paxel,mekanismtools:iron_paxel,mekanismtools:lapis_lazuli_paxel,mekanismtools:netherite_paxel,mekanismtools:osmium_paxel,mekanismtools:refined_glowstone_paxel,mekanismtools:refined_obsidian_paxel,mekanismtools:steel_paxel,mekanismtools:stone_paxel,mekanismtools:wood_paxel, iron_shovel, wooden_shovel, stone_shovel, diamond_shovel, golden_shovel, netherite_shovel, TofuCraft:toolKinuPickaxe, TofuCraft:toolMomenPickaxe, TofuCraft:toolSolidPickaxe, TofuCraft:toolMetalPickaxe, TofuCraft:toolDiamondPickaxe"
-	#String: "grass_block, dirt, sand, gravel, farmland, snow_layer, clay, soul_sand, mycelium, coarse_dirt, soul_soil"
-	blockIds = "mekanism:block_salt, grass_block, dirt, sand, gravel, farmland, snow_layer, clay, soul_sand, mycelium, coarse_dirt, soul_soil"
+	#String: "iron_shovel, wooden_shovel, stone_shovel, diamond_shovel, golden_shovel,netherite_shovel"
+	itemIds = "mekanismtools:refined_obsidian_paxel, ron_shovel, wooden_shovel, stone_shovel, diamond_shovel, golden_shovel,netherite_shovel"
+	#String: "grass_block, dirt, sand, gravel, farmland, snow_layer, clay, soul_sand, mycelium, coarse_dirt,soul_soil"
+	blockIds = "grass_block, dirt, sand, gravel, farmland, snow_layer, clay, soul_sand, mycelium, coarse_dirt,soul_soil"
 	#String: "KEY_G"
 	Key = "KEY_G"
 	#Integer: 11
-	Limiter = 20
+	Limiter = 11
 	#Integer: 0
 	#0:not decrease durability 1,2:decrease durability(1=until whole blocks 2=until break an item)
 	Durability = 0
@@ -17,7 +17,7 @@
 	#Boolean: true
 	StartMode = true
 	#Boolean: false
-	AutoCollect = false
+	AutoCollect = true
 	#Boolean: false
 	DropGather = true
 	#String: "mod_digall"

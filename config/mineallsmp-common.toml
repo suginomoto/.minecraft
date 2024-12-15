@@ -4,15 +4,15 @@
 	#String: "iron_pickaxe, wooden_pickaxe, stone_pickaxe, diamond_pickaxe, golden_pickaxe, netherite_pickaxe, wooden_hoe,stone_hoe,golden_hoe,iron_hoe,diamond_hoe,netherite_hoe"
 	itemIds = "mekanismtools:refined_obsidian_paxel, iron_pickaxe, wooden_pickaxe, stone_pickaxe, diamond_pickaxe, golden_pickaxe, netherite_pickaxe, wooden_hoe,stone_hoe,golden_hoe,iron_hoe,diamond_hoe,netherite_hoe"
 	#String: "gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite, polished_granite, diorite, polished_diorite, andesite, polished_andesite,ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore"
-	blockIds = "mekanism:copper_ore, mekanism:tin_ore, mekanism:osmium_ore, mekanism:uranium_ore, mekanism:fluorite_ore, mekanism:lead_ore, mekanism:deepslate_tin_ore, mekanism:deepslate_osmium_ore, mekanism:deepslate_uranium_ore, mekanism:deepslate_fluorite_ore, mekanism:deepslate_lead_ore, gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite, polished_granite, diorite, polished_diorite, andesite, polished_andesite,ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore"
+	blockIds = "stone, mekanism:copper_ore, mekanism:tin_ore, mekanism:osmium_ore, mekanism:uranium_ore, mekanism:fluorite_ore, mekanism:lead_ore, mekanism:deepslate_tin_ore, mekanism:deepslate_osmium_ore, mekanism:deepslate_uranium_ore, mekanism:deepslate_fluorite_ore, mekanism:deepslate_lead_ore, gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite, polished_granite, diorite, polished_diorite, andesite, polished_andesite,ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore"
 	#Boolean: true
-	DestroyUnder = true
+	DestroyUnder = false
 	#Boolean: true
 	StartMode = true
 	#String: "KEY_M"
 	Key = "KEY_M"
 	#Integer: 0
-	Limiter = 0
+	Limiter = 20
 	#Integer: 0
 	#0:not decrease durability 1,2:decrease durability(1=until whole blocks 2=until break an item)
 	Durability = 0
